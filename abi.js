@@ -1,0 +1,91 @@
+export default [
+  {
+    inputs: [],
+    name: "bride",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    name: "bridesmaids",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "cat",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "date",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "dog",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "groom",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [{ internalType: "uint256", name: "", type: "uint256" }],
+    name: "groomsmen",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "location",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "officiant",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "officiantScript",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "witness1",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+  {
+    inputs: [],
+    name: "witness2",
+    outputs: [{ internalType: "string", name: "", type: "string" }],
+    stateMutability: "view",
+    type: "function",
+  },
+];
+
+export const ARRAY_FIELD_LENGTHS = {
+  groomsmen: 4,
+  bridesmaids: 3,
+};

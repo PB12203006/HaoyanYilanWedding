@@ -1,0 +1,27 @@
+{
+  "name": "haoyanyilanwedding",
+  "version": "1.0.0",
+  "description": "Engrave our wedding on Blockchain",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PB12203006/HaoyanYilanWedding.git"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.4",
+    "dotenv": "^16.0.3",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^9.2.2",
+    "solc": "0.8.17",
+    "web3": "^1.7.1"
+  },
+  "author": "Haoyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PB12203006/HaoyanYilanWedding/issues"
+  },
+  "homepage": "https://github.com/PB12203006/HaoyanYilanWedding#readme",
+  "type": "module"
+}
